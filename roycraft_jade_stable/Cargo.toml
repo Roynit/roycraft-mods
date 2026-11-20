@@ -1,0 +1,9 @@
+[package]
+name = "roycraft-jade-stable"
+version = "0.1.0"
+edition = "2024"
+[lib]
+crate-type = ["cdylib"]
+[dependencies]
+horizon-mod-sdk = { git = "https://github.com/horizon-rust/horizon.git", rev = "a3acb5f0d2f59d2d5ff21a5aa000809ba1e35e2f" }
+[workspace]
