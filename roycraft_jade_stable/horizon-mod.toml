@@ -1,8 +1,9 @@
 id = "roycraft_jade"
 name = "RoyCraft Jade"
-version = "0.1.0"
+version = "0.1.1"
 description = "Shows the block under your crosshair on Horizon Rust stable v0.2.97."
 authors = ["RoyCraft"]
 api = "0.1"
 side = "client"
 capabilities = ["game-read", "hud", "input"]
+experimental = ["input"]
